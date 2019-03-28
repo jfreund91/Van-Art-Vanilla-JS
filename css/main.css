@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+#generator {
+    display: grid;
+    grid-auto-flow: column;
+}
+div#img-option-container {
+    display: flex;
+    flex-direction: column;
+}
+.logo-img {
+    width: 128px;
+    height: auto;
+    margin-bottom: 32px;
+}
+#overlay {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 50%;
+    z-index: 2;
+    top: 55%;
+}
+#van-art-container {
+    height: 560px;
+    width: 1028px;
+}
+.logo {
+    width: 156px;
+    height: auto;
+}
